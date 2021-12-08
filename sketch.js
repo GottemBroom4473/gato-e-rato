@@ -17,12 +17,12 @@ function preload() {
 function setup(){
     createCanvas(1000,800);
     //crie os sprites de gato e rato aqui
-    gato = createSprite(100,100,10,10);
+    gato = createSprite(900,700,10,10);
     gato.addAnimation("gatoSentado", imgGato1);
-    gato.scale = 0.2
-    rato = createSprite(900,100,10,10);
+    gato.scale = 0.2;
+    rato = createSprite(100,700,10,10);
     rato.addAnimation("ratoh", imgRato1);
-
+    rato.scale = 0.2;
 }
 
 function draw() {
