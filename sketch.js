@@ -34,7 +34,7 @@ function draw() {
     if(gato.x - rato.x < (gato.width - rato.width)/2){
     gato.velocityX = 0; 
     gato.addAnimation("ultimaImgGato",imgGato3);
-    gato.changeAnimation("ultimaImgGato");
+    gato.changeAnimation("ultimaImgGato",imgGato3);
     gato.x = 300;
     gato.scale = 0.2
     }
