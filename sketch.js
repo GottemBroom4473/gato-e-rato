@@ -29,7 +29,7 @@ function draw() {
 
     background(imgFundo);
 
-    keyPressed();
+    
     //Escreva a condição aqui para avaliar se o gato e o rato colidem
     if(gato.x - rato.x < (gato.width - rato.width)/2){
     gato.velocityX = 0; 
